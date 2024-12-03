@@ -6,8 +6,7 @@ import React, { useState } from 'react'
     const additems=()=>{
         setItem([...item,inputvalue])
         setInputValue('')
-
-    }
+}
 
 
   return (
