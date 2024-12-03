@@ -8,8 +8,7 @@ import React, { useState } from 'react'
         setInputValue('')
 }
 
-
-  return (
+return (
 
     //dynamic list items add
     <div>
