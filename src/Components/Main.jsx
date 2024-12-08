@@ -13,7 +13,8 @@ return (
     //dynamic list items add
     <div>
         <input type="text" value={inputvalue} onChange={(e)=>setInputValue(e.target.value)}/>
-        <button onClick={additems}>submit</button>
+        <button onClick={additems}> add submit</button>
+        <h2>hello </h2>
         <ul>
             {item.map((item,index)=>(
                 <li key={index}>{item}</li>
